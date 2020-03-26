@@ -1,4 +1,4 @@
-import org.sharedlib
+import org.sharedlib.*
 
 def info(message) {
     notificationInfo(message)
