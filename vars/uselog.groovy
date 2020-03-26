@@ -1,0 +1,1 @@
+log.info 'Using from global var'

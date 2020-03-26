@@ -1,9 +1,9 @@
-def notify = new org.sharedlib.notification()
+// def notification = new org.sharedlib.notification()
 
-def info(message) {
-    notify.notificationInfo(message)
-}
+// def info(message) {
+//     notification.notificationInfo(message)
+// }
 
-def warning(message) {
-    notify.notificationWarn(message)
-}
+// def warning(message) {
+//     notification.notificationWarn(message)
+// }
