@@ -1,1 +1,3 @@
-log.info 'Using from global var'
+def info(message) {
+    log.info(message)
+}

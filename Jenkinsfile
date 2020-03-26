@@ -6,4 +6,5 @@
 */
 log.info 'Using from Jenksfile'
 
+uselog.info 'Passing to uselog function first'
 
