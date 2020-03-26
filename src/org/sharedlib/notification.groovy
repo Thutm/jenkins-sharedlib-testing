@@ -1,9 +1,9 @@
 package org.sharedlib
 
-def notificationInfoInfo(message) {
+def notificationInfo(message) {
     echo "Send notification for - INFO: ${message}"
 }
 
-def notificationInfoWarning(message) {
+def notificationWarn(message) {
     echo "Send notification for - WARNING: ${message}"
 }
