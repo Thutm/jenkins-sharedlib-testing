@@ -1,9 +1,9 @@
-import org.sharedlib.*
+def notify = new org.sharedlib.notification()
 
 def info(message) {
-    notificationInfo(message)
+    notify.notificationInfo(message)
 }
 
 def warning(message) {
-    notificationWarn(message)
+    notify.notificationWarn(message)
 }
