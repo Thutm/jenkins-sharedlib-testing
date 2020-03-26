@@ -1,5 +1,5 @@
-@Library('sharedlib@master') _
-
+@Library('sharedlib@master')
+import org.sharedlib.*
 /*
     Basic global functions, that do not consume anything from
     src directories.
@@ -10,6 +10,6 @@ log.warning 'Nothing to do!'
 /*
     Global functions that import code from src directory.
 */
-notify.info 'Starting'
-notify.warning 'Nothing to do!'
+notificationInfo('Starting')
+notificationWarn('Nothing to do!')
 
