@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage ('Example') {
             steps {
-                log.info 'Passing into global function'
+                log 'Passing into global function'
 
                 // uselog.info 'Passing into global function that uses another global function'
 
